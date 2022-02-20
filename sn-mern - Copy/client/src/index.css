@@ -1,0 +1,39 @@
+.card img {
+  aspect-ratio: 1/1 !important;
+  object-fit: cover !important;
+  border-radius: 0 !important;
+}
+.post-options {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card #dropdown-basic::after {
+  content: none;
+}
+
+.user-info {
+  padding: 2rem 0 5rem 0;
+}
+
+.user-info img {
+  width: 100px;
+  border-radius: 50%;
+  height: 100px;
+  margin-right: 2rem;
+}
+
+button[disabled='disabled'],
+button:disabled {
+  opacity: 1 !important;
+}
+
+.user-post-info {
+  padding: 1rem 0;
+  gap: 1rem;
+}
+.user-post-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
